@@ -34,9 +34,17 @@ body {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 300px) {
+@media (max-width: 600px) {
     #board {
-        transform: scale(0.4); /* Adjust the scale as needed */
-        transform-origin: top left;
+        height: 270px; /* Adjusted height */
+        width: 315px;  /* Adjusted width */
+        border: 5px solid navy; /* Adjusted border */
+    }
+
+    .tile {
+        height: 35px; /* Adjusted height */
+        width: 35px;  /* Adjusted width */
+        margin: 2px;  /* Adjusted margin */
+        border: 2px solid navy; /* Adjusted border */
     }
 }
