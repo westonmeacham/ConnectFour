@@ -34,7 +34,7 @@ body {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 300px) {
     #board {
         transform: scale(0.4); /* Adjust the scale as needed */
         transform-origin: top left;
